@@ -1,0 +1,130 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.main-page {
+    width: 100%;
+    background : linear-gradient(90deg, #f3ef8e 0%, #a5deff 99.5%);
+}
+.main-page-text-container {
+    border-radius: 40px; 
+    background: #fff;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    position: relative;
+}
+.main-page-hello-text {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 60px;
+}
+.main-page-title {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 64px;
+line-height: 150%;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 24px;
+}
+.main-page-description {
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 32px;
+}
+.main-page-btn {
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+padding-right: 24px;
+padding-left: 24px;
+padding-bottom: 12px;
+padding-right: 12px;
+border: none;
+background: linear-gradient(90deg, #f3ef8e 0%, #a5deff 99.5%);
+border-radius: 8px;
+padding: 12px 24px;
+width: 172px;
+height: 48px;
+cursor: pointer;
+}
+.main-logo {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+}
+.facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.trezub {
+    margin-bottom: 24px;
+}
+.facts-title {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 150%;
+color: #1b1d1f;
+margin-bottom: 32px;
+margin-top: 0;
+text-align: center;
+}
+.facts-discr {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    width: 772px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.first-fact-title {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+text-align: center;
+color: #1b1d1f;
+margin-top: 32px;
+margin-bottom: 8px;
+}
+.first-fact-descr {
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 0;
+}
+.facts-item {
+    width: calc((100% / 3) - (24px * 2) / 3);
+}
